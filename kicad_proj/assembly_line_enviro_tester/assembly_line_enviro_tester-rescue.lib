@@ -1,48 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x02_Female
+# 0524353071-connectors
 #
-DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_TestPoint
-#
-DEF Connector_TestPoint TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "Connector_TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# assembly_line_enviro_tester-rescue_0524353071-connectors
-#
-DEF assembly_line_enviro_tester-rescue_0524353071-connectors J 0 40 Y N 1 F N
+DEF 0524353071-connectors J 0 40 Y N 1 F N
 F0 "J" 0 1500 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_0524353071-connectors" 0 -1600 50 H I C CNN
+F1 "0524353071-connectors" 0 -1600 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "30 POS RIBBON CONN" 100 50 50 V V C CNN "id"
@@ -115,11 +78,11 @@ X Pin_9 9 -200 600 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_0686F2000-01-fuses
+# 0686F2000-01-fuses
 #
-DEF assembly_line_enviro_tester-rescue_0686F2000-01-fuses F 0 0 N Y 1 F N
+DEF 0686F2000-01-fuses F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_0686F2000-01-fuses" 100 0 50 V I C CNN
+F1 "0686F2000-01-fuses" 100 0 50 V I C CNN
 F2 "footprints:FUSE_0603N" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "2A" 0 0 50 H V C CNN "id"
@@ -135,11 +98,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_0ZCG0150BF2C-fuses
+# 0ZCG0150BF2C-fuses
 #
-DEF assembly_line_enviro_tester-rescue_0ZCG0150BF2C-fuses F 0 0 N Y 1 F N
+DEF 0ZCG0150BF2C-fuses F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_0ZCG0150BF2C-fuses" 100 0 50 V I C CNN
+F1 "0ZCG0150BF2C-fuses" 100 0 50 V I C CNN
 F2 "footprints:FUSC455X324X155L45N" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "24V 1.5A " 0 0 50 H V C CNN "id"
@@ -156,11 +119,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_2N7002-TP-mosfets
+# 2N7002-TP-mosfets
 #
-DEF assembly_line_enviro_tester-rescue_2N7002-TP-mosfets Q 0 0 Y N 1 F N
+DEF 2N7002-TP-mosfets Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_2N7002-TP-mosfets" 200 0 50 H I L CNN
+F1 "2N7002-TP-mosfets" 200 0 50 H I L CNN
 F2 "footprints:SOT23-3P96_237X112L57X44N" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 F4 "2N7002" 450 0 50 H V C CNN "id"
@@ -192,11 +155,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_742792040-inductors
+# 742792040-inductors
 #
-DEF assembly_line_enviro_tester-rescue_742792040-inductors FB 0 0 N Y 1 F N
+DEF 742792040-inductors FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_742792040-inductors" 150 0 50 V I C CNN
+F1 "742792040-inductors" 150 0 50 V I C CNN
 F2 "footprints:INDUCTOR_0805N" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "FERRITE" 150 0 50 V V C CNN "id"
@@ -215,11 +178,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_ACM4520V-142-2P-T00-inductors
+# ACM4520V-142-2P-T00-inductors
 #
-DEF assembly_line_enviro_tester-rescue_ACM4520V-142-2P-T00-inductors L 0 10 N N 1 F N
+DEF ACM4520V-142-2P-T00-inductors L 0 10 N N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_ACM4520V-142-2P-T00-inductors" 0 -125 50 H I C CNN
+F1 "ACM4520V-142-2P-T00-inductors" 0 -125 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "CHOKE" 0 0 50 H V C CNN "id"
@@ -242,11 +205,11 @@ X 4 4 100 50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_C2012X7S1A226M125AC-capacitors
+# C2012X7S1A226M125AC-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_C2012X7S1A226M125AC-capacitors C 0 10 N Y 1 F N
+DEF C2012X7S1A226M125AC-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_C2012X7S1A226M125AC-capacitors" 25 -100 50 H I L CNN
+F1 "C2012X7S1A226M125AC-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_0805N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "22uF" -150 100 50 H V C CNN "id"
@@ -261,11 +224,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CC0603KRX5R9BB105-capacitors
+# CC0603KRX5R9BB105-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_CC0603KRX5R9BB105-capacitors C 0 10 N Y 1 F N
+DEF CC0603KRX5R9BB105-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_CC0603KRX5R9BB105-capacitors" 25 -100 50 H I L CNN
+F1 "CC0603KRX5R9BB105-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_0603N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1uF" -150 100 50 H V C CNN "id"
@@ -280,11 +243,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CC0603KRX7R9BB104-capacitors
+# CC0603KRX7R9BB104-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_CC0603KRX7R9BB104-capacitors C 0 10 N Y 1 F N
+DEF CC0603KRX7R9BB104-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_CC0603KRX7R9BB104-capacitors" 25 -100 50 H I L CNN
+F1 "CC0603KRX7R9BB104-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_0603N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "0.1uF" -150 100 50 H V C CNN "id"
@@ -299,11 +262,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CIGW252010EH4R7MNE-inductors
+# CIGW252010EH4R7MNE-inductors
 #
-DEF assembly_line_enviro_tester-rescue_CIGW252010EH4R7MNE-inductors L 0 40 N N 1 F N
+DEF CIGW252010EH4R7MNE-inductors L 0 40 N N 1 F N
 F0 "L" -50 -50 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_CIGW252010EH4R7MNE-inductors" 75 0 50 V I C CNN
+F1 "CIGW252010EH4R7MNE-inductors" 75 0 50 V I C CNN
 F2 "footprints:INDUCTOR_2520N" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "4.7 uH" 100 0 50 V V C CNN "id"
@@ -318,11 +281,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CL10B102KB8WPNC-capacitors
+# CL10B102KB8WPNC-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_CL10B102KB8WPNC-capacitors C 0 10 N Y 1 F N
+DEF CL10B102KB8WPNC-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_CL10B102KB8WPNC-capacitors" 25 -100 50 H I L CNN
+F1 "CL10B102KB8WPNC-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_0603N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1000pF" -150 100 50 H V C CNN "id"
@@ -337,11 +300,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CL10B103KB8NNNC-capacitors
+# CL10B103KB8NNNC-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_CL10B103KB8NNNC-capacitors C 0 10 N Y 1 F N
+DEF CL10B103KB8NNNC-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_CL10B103KB8NNNC-capacitors" 25 -100 50 H I L CNN
+F1 "CL10B103KB8NNNC-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_0603N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10000pF" -150 100 50 H V C CNN "id"
@@ -356,11 +319,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_CL31A106KPHNNNE-capacitors
+# CL31A106KPHNNNE-capacitors
 #
-DEF assembly_line_enviro_tester-rescue_CL31A106KPHNNNE-capacitors C 0 10 N Y 1 F N
+DEF CL31A106KPHNNNE-capacitors C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_CL31A106KPHNNNE-capacitors" 25 -100 50 H I L CNN
+F1 "CL31A106KPHNNNE-capacitors" 25 -100 50 H I L CNN
 F2 "footprints:CAPACITOR_1206N" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uF" -150 100 50 H V C CNN "id"
@@ -375,11 +338,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_ESP32-WROOM-32D-ics
+# ESP32-WROOM-32D-ics
 #
-DEF assembly_line_enviro_tester-rescue_ESP32-WROOM-32D-ics U 0 40 Y Y 1 F N
+DEF ESP32-WROOM-32D-ics U 0 40 Y Y 1 F N
 F0 "U" -650 1200 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_ESP32-WROOM-32D-ics" -500 -1400 50 H I C CNN
+F1 "ESP32-WROOM-32D-ics" -500 -1400 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "ESP32" -450 -1400 50 H V C CNN "ID"
@@ -428,11 +391,11 @@ X IO33 9 900 -1100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_HDC1080DMBR-ics
+# HDC1080DMBR-ics
 #
-DEF assembly_line_enviro_tester-rescue_HDC1080DMBR-ics U 0 40 Y Y 1 F N
+DEF HDC1080DMBR-ics U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_HDC1080DMBR-ics" 0 200 50 H I C CNN
+F1 "HDC1080DMBR-ics" 0 200 50 H I C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 F4 "HDC1080DMBR" 0 200 50 H V C CNN "id"
@@ -449,11 +412,11 @@ X NC 7 -450 350 200 R 50 50 0 0 N
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_INL-5APT30-transistors
+# INL-5APT30-transistors
 #
-DEF assembly_line_enviro_tester-rescue_INL-5APT30-transistors Q 0 0 Y N 1 F N
+DEF INL-5APT30-transistors Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_INL-5APT30-transistors" 200 -50 50 H I L CNN
+F1 "INL-5APT30-transistors" 200 -50 50 H I L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PHOTO_TRANS" 450 -50 50 H V C CNN "id"
@@ -473,11 +436,11 @@ X E 2 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_MMSS8050-L-TP-transistors
+# MMSS8050-L-TP-transistors
 #
-DEF assembly_line_enviro_tester-rescue_MMSS8050-L-TP-transistors Q 0 0 Y N 1 F N
+DEF MMSS8050-L-TP-transistors Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_MMSS8050-L-TP-transistors" 200 0 50 H I L CNN
+F1 "MMSS8050-L-TP-transistors" 200 0 50 H I L CNN
 F2 "" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 F4 "MMSS8050" 400 0 50 H V C CNN "id"
@@ -498,11 +461,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_P6SMB6.8A-E3_5B-diodes
+# P6SMB6.8A-E3_5B-diodes
 #
-DEF assembly_line_enviro_tester-rescue_P6SMB6.8A-E3_5B-diodes D 0 40 N N 1 F N
+DEF P6SMB6.8A-E3_5B-diodes D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_P6SMB6.8A-E3_5B-diodes" 0 -100 50 H I C CNN
+F1 "P6SMB6.8A-E3_5B-diodes" 0 -100 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Vishay Semiconductor Diodes Division" 0 0 50 H I C CNN "manf"
@@ -517,11 +480,11 @@ X C C 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_PTS_647_SN70_SMTR2_LFS-misc
+# PTS_647_SN70_SMTR2_LFS-misc
 #
-DEF assembly_line_enviro_tester-rescue_PTS_647_SN70_SMTR2_LFS-misc SW 0 40 N N 1 F N
+DEF PTS_647_SN70_SMTR2_LFS-misc SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_PTS_647_SN70_SMTR2_LFS-misc" 0 440 50 H I C CNN
+F1 "PTS_647_SN70_SMTR2_LFS-misc" 0 440 50 H I C CNN
 F2 "footprints:PTS_647_SN70_SMTR2_LFS" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 F4 "SW" 0 500 31 H I C CNN "id"
@@ -538,11 +501,11 @@ X 4 4 200 -50 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RC0603FR-0730K9L-resistors
+# RC0603FR-0730K9L-resistors
 #
-DEF assembly_line_enviro_tester-rescue_RC0603FR-0730K9L-resistors R 0 0 N Y 1 F N
+DEF RC0603FR-0730K9L-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_RC0603FR-0730K9L-resistors" -100 0 50 V I C CNN
+F1 "RC0603FR-0730K9L-resistors" -100 0 50 V I C CNN
 F2 "footprints:RESISTOR_0603N" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "30.9K" -100 0 50 V V C CNN "id"
@@ -558,11 +521,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RC0603JR-0710KL-resistors
+# RC0603JR-0710KL-resistors
 #
-DEF assembly_line_enviro_tester-rescue_RC0603JR-0710KL-resistors R 0 0 N Y 1 F N
+DEF RC0603JR-0710KL-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_RC0603JR-0710KL-resistors" -100 0 50 V I C CNN
+F1 "RC0603JR-0710KL-resistors" -100 0 50 V I C CNN
 F2 "footprints:RESISTOR_0603N" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10K" -100 0 50 V V C CNN "id"
@@ -581,11 +544,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RC0603JR-07220RL-resistors
+# RC0603JR-07220RL-resistors
 #
-DEF assembly_line_enviro_tester-rescue_RC0603JR-07220RL-resistors R 0 0 N Y 1 F N
+DEF RC0603JR-07220RL-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_RC0603JR-07220RL-resistors" -100 0 50 V I C CNN
+F1 "RC0603JR-07220RL-resistors" -100 0 50 V I C CNN
 F2 "footprints:RESISTOR_0603N" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "220" -100 0 50 V V C CNN "id"
@@ -604,11 +567,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RC0603JR-0730RL-resistors
+# RC0603JR-0730RL-resistors
 #
-DEF assembly_line_enviro_tester-rescue_RC0603JR-0730RL-resistors R 0 0 N Y 1 F N
+DEF RC0603JR-0730RL-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_RC0603JR-0730RL-resistors" -100 0 50 V I C CNN
+F1 "RC0603JR-0730RL-resistors" -100 0 50 V I C CNN
 F2 "footprints:RESISTOR_0603N" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "30" -100 0 50 V V C CNN "id"
@@ -627,11 +590,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RC0603JR-074K7L-resistors
+# RC0603JR-074K7L-resistors
 #
-DEF assembly_line_enviro_tester-rescue_RC0603JR-074K7L-resistors R 0 0 N Y 1 F N
+DEF RC0603JR-074K7L-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_RC0603JR-074K7L-resistors" -100 0 50 V I C CNN
+F1 "RC0603JR-074K7L-resistors" -100 0 50 V I C CNN
 F2 "footprints:RESISTOR_0603N" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "4.7k" -100 0 50 V V C CNN "id"
@@ -650,11 +613,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_RCLAMP0582BQTCT-diodes
+# RCLAMP0582BQTCT-diodes
 #
-DEF assembly_line_enviro_tester-rescue_RCLAMP0582BQTCT-diodes D 0 40 Y N 1 F N
+DEF RCLAMP0582BQTCT-diodes D 0 40 Y N 1 F N
 F0 "D" -50 0 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_RCLAMP0582BQTCT-diodes" -50 0 50 H I C CNN
+F1 "RCLAMP0582BQTCT-diodes" -50 0 50 H I C CNN
 F2 "" 150 100 50 H I C CNN
 F3 "" 150 100 50 H I C CNN
 F4 "TVS" -50 0 50 H I C CNN "id"
@@ -675,11 +638,11 @@ X K 3 -50 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_SMI-1324-TW-5V-3-R-misc
+# SMI-1324-TW-5V-3-R-misc
 #
-DEF assembly_line_enviro_tester-rescue_SMI-1324-TW-5V-3-R-misc BZ 0 1 Y N 1 F N
+DEF SMI-1324-TW-5V-3-R-misc BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "assembly_line_enviro_tester-rescue_SMI-1324-TW-5V-3-R-misc" 150 -50 50 H I L CNN
+F1 "SMI-1324-TW-5V-3-R-misc" 150 -50 50 H I L CNN
 F2 "" 50 75 50 V I C CNN
 F3 "" 50 75 50 V I C CNN
 F4 "BUZZER" 0 -200 50 H V C CNN "id"
@@ -697,11 +660,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_SR732BTTD1R00D-resistors
+# SR732BTTD1R00D-resistors
 #
-DEF assembly_line_enviro_tester-rescue_SR732BTTD1R00D-resistors R 0 0 N Y 1 F N
+DEF SR732BTTD1R00D-resistors R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "assembly_line_enviro_tester-rescue_SR732BTTD1R00D-resistors" -100 0 50 V I C CNN
+F1 "SR732BTTD1R00D-resistors" -100 0 50 V I C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1" -100 0 50 V V C CNN "id"
@@ -720,11 +683,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_TPS56339DDCR-ics
+# TPS56339DDCR-ics
 #
-DEF assembly_line_enviro_tester-rescue_TPS56339DDCR-ics U 0 40 Y Y 1 F N
+DEF TPS56339DDCR-ics U 0 40 Y Y 1 F N
 F0 "U" -400 -300 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_TPS56339DDCR-ics" -400 -300 50 H I C CNN
+F1 "TPS56339DDCR-ics" -400 -300 50 H I C CNN
 F2 "" -400 -300 50 H I C CNN
 F3 "" -400 -300 50 H I C CNN
 F4 "TPS56339" -400 -300 50 H V C CNN "id"
@@ -740,11 +703,11 @@ X BOOT 6 500 250 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# assembly_line_enviro_tester-rescue_Tag_Connect_6_Pin-connectors
+# Tag_Connect_6_Pin-connectors
 #
-DEF assembly_line_enviro_tester-rescue_Tag_Connect_6_Pin-connectors J 0 40 Y N 1 F N
+DEF Tag_Connect_6_Pin-connectors J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "assembly_line_enviro_tester-rescue_Tag_Connect_6_Pin-connectors" 50 -200 50 H I C CNN
+F1 "Tag_Connect_6_Pin-connectors" 50 -200 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TC_6_PIN" 50 -200 50 H V C CNN "id"
@@ -765,63 +728,6 @@ X Pin_3 3 -200 0 150 R 50 50 1 1 P
 X Pin_4 4 300 0 150 L 50 50 1 1 P
 X Pin_5 5 -200 -100 150 R 50 50 1 1 P
 X Pin_6 6 300 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3V3
-#
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

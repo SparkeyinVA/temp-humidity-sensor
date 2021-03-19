@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name lib_fp)(type KiCad)(uri H:/Documents/Engineering/MTE/Projects/Internal/assembly_line_enviro_tester/lib_fp.pretty)(options "")(descr ""))
+  (lib (name lib_fp)(type KiCad)(uri C:/Users/jchamberlain/Documents/GitHub/Hobby/temp-humidity-sensor/lib_fp.pretty)(options "")(descr ""))
 )

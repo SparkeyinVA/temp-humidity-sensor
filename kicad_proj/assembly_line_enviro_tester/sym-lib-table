@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name assembly_line_enviro_tester-rescue)(type Legacy)(uri ${KIPRJMOD}/assembly_line_enviro_tester-rescue.lib)(options "")(descr ""))
+)

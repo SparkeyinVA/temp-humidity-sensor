@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ics:ESP32-WROOM-32D U1
+L assembly_line_enviro_tester-rescue:ESP32-WROOM-32D-ics U1
 U 1 1 5F08C3C2
 P 2850 5250
 F 0 "U1" H 2200 6450 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "~" H 1100 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ics:HDC1080DMBR U3
+L assembly_line_enviro_tester-rescue:HDC1080DMBR-ics U3
 U 1 1 5F096561
 P 9250 4150
 F 0 "U3" H 9050 4650 50  0000 C CNN
@@ -109,15 +109,14 @@ F 3 "" H 9250 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 4450 9250 4400
-NoConn ~ 8800 3900
 NoConn ~ 8800 4000
 $Comp
-L capacitors:CC0603KRX7R9BB104 C20
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C20
 U 1 1 5F0982A3
 P 8500 3950
 F 0 "C20" H 8500 4050 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 8525 3850 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 8538 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 3800 50  0001 C CNN
 F 3 "~" H 8500 3950 50  0001 C CNN
 F 4 "0.1uF" H 8550 3850 50  0000 L CNN "id"
 F 5 "Yageo" H 8500 3950 50  0001 C CNN "manf"
@@ -140,19 +139,19 @@ Wire Wire Line
 	9250 4400 9250 4350
 Text Label 9700 3850 0    50   ~ 0
 SDA
-Text Label 9700 4050 0    50   ~ 0
+Text Label 8800 3900 2    50   ~ 0
 SCL
 Text Label 4050 4900 0    50   ~ 0
 SDA
 Text Label 4500 5000 0    50   ~ 0
 SCL
 $Comp
-L resistors:RC0603JR-074K7L R4
+L assembly_line_enviro_tester-rescue:RC0603JR-074K7L-resistors R4
 U 1 1 5F09B35A
 P 4200 4650
 F 0 "R4" H 4268 4696 50  0000 L CNN
 F 1 "RC0603JR-074K7L" V 4100 4650 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 4240 4640 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4240 4640 50  0001 C CNN
 F 3 "~" H 4200 4650 50  0001 C CNN
 F 4 "4.7k" H 4268 4605 50  0000 L CNN "id"
 F 5 "Yageo" H 4200 4650 50  0001 C CNN "manf"
@@ -184,12 +183,12 @@ F 3 "" H 5300 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L resistors:RC0603JR-074K7L R5
+L assembly_line_enviro_tester-rescue:RC0603JR-074K7L-resistors R5
 U 1 1 5F09F876
 P 4650 4650
 F 0 "R5" H 4718 4696 50  0000 L CNN
 F 1 "RC0603JR-074K7L" V 4550 4650 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 4690 4640 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4690 4640 50  0001 C CNN
 F 3 "~" H 4650 4650 50  0001 C CNN
 F 4 "4.7k" H 4718 4605 50  0000 L CNN "id"
 F 5 "Yageo" H 4650 4650 50  0001 C CNN "manf"
@@ -230,12 +229,12 @@ Wire Wire Line
 Text Label 3500 3650 2    50   ~ 0
 RTS
 $Comp
-L resistors:RC0603JR-0710KL R3
+L assembly_line_enviro_tester-rescue:RC0603JR-0710KL-resistors R3
 U 1 1 5F0A7344
 P 3750 3650
 F 0 "R3" V 3650 3650 50  0000 C CNN
 F 1 "RC0603JR-0710KL" V 3650 3650 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 3790 3640 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 3640 50  0001 C CNN
 F 3 "~" H 3750 3650 50  0001 C CNN
 F 4 "10K" V 3850 3650 50  0000 C CNN "id"
 F 5 "Yageo" H 3750 3650 50  0001 C CNN "manf"
@@ -245,7 +244,7 @@ $EndComp
 Text Label 4300 3950 0    50   ~ 0
 IO0
 $Comp
-L transistors:MMSS8050-L-TP Q2
+L assembly_line_enviro_tester-rescue:MMSS8050-L-TP-transistors Q2
 U 1 1 5F0AD963
 P 4200 3650
 F 0 "Q2" H 4390 3696 50  0000 L CNN
@@ -266,12 +265,12 @@ Wire Wire Line
 Wire Wire Line
 	3900 3050 4000 3050
 $Comp
-L resistors:RC0603JR-0710KL R2
+L assembly_line_enviro_tester-rescue:RC0603JR-0710KL-resistors R2
 U 1 1 5F0A919A
 P 3750 3050
 F 0 "R2" V 3650 3050 50  0000 C CNN
 F 1 "RC0603JR-0710KL" V 3650 3050 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 3790 3040 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3790 3040 50  0001 C CNN
 F 3 "~" H 3750 3050 50  0001 C CNN
 F 4 "10K" V 3850 3050 50  0000 C CNN "id"
 F 5 "Yageo" H 3750 3050 50  0001 C CNN "manf"
@@ -283,7 +282,7 @@ DTR
 Text Label 4300 2850 0    50   ~ 0
 EN
 $Comp
-L transistors:MMSS8050-L-TP Q1
+L assembly_line_enviro_tester-rescue:MMSS8050-L-TP-transistors Q1
 U 1 1 5F0AD1C6
 P 4200 3050
 F 0 "Q1" H 4390 3096 50  0000 L CNN
@@ -296,7 +295,7 @@ F 5 "Micro Commercial Co" H 4200 3050 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:0524353071 J2
+L assembly_line_enviro_tester-rescue:0524353071-connectors J2
 U 1 1 5F122778
 P 9100 1500
 F 0 "J2" V 9200 2900 50  0000 C CNN
@@ -335,12 +334,12 @@ F 3 "" H 9100 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors:CC0603KRX7R9BB104 C21
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C21
 U 1 1 5F137393
 P 10850 1500
 F 0 "C21" H 10850 1600 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 10875 1400 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 10888 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10888 1350 50  0001 C CNN
 F 3 "~" H 10850 1500 50  0001 C CNN
 F 4 "0.1uF" H 10850 1400 50  0000 L CNN "id"
 F 5 "Yageo" H 10850 1500 50  0001 C CNN "manf"
@@ -357,12 +356,12 @@ Connection ~ 10600 1900
 Wire Wire Line
 	10600 1900 10600 1700
 $Comp
-L capacitors:CC0603KRX7R9BB104 C19
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C19
 U 1 1 5F146851
 P 7500 1500
 F 0 "C19" H 7250 1600 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 7525 1400 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 7538 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 1350 50  0001 C CNN
 F 3 "~" H 7500 1500 50  0001 C CNN
 F 4 "0.1uF" H 7250 1400 50  0000 L CNN "id"
 F 5 "Yageo" H 7500 1500 50  0001 C CNN "manf"
@@ -395,7 +394,7 @@ SDA
 Text Label 8750 1850 0    50   ~ 0
 SCL
 $Comp
-L diodes:RCLAMP0582BQTCT D2
+L assembly_line_enviro_tester-rescue:RCLAMP0582BQTCT-diodes D2
 U 1 1 5F1658A5
 P 8650 2150
 F 0 "D2" V 8775 1962 50  0000 R CNN
@@ -446,12 +445,12 @@ Wire Notes Line
 Wire Notes Line
 	11100 600  7200 600 
 $Comp
-L inductors:742792040 FB1
+L assembly_line_enviro_tester-rescue:742792040-inductors FB1
 U 1 1 5F17CF99
 P 1450 3100
 F 0 "FB1" V 1176 3100 50  0000 C CNN
 F 1 "742792040" V 1600 3100 50  0001 C CNN
-F 2 "lib_fp:CHIP_0805N" V 1380 3100 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1380 3100 50  0001 C CNN
 F 3 "~" H 1450 3100 50  0001 C CNN
 F 4 "FERRITE" V 1267 3100 50  0000 C CNN "id"
 F 5 "Würth Elektronik" H 1450 3100 50  0001 C CNN "manf"
@@ -459,12 +458,12 @@ F 5 "Würth Elektronik" H 1450 3100 50  0001 C CNN "manf"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitors:CL10B103KB8NNNC C2
+L assembly_line_enviro_tester-rescue:CL10B103KB8NNNC-capacitors C2
 U 1 1 5F17DD65
 P 1600 3250
 F 0 "C2" H 1650 3350 50  0000 L CNN
 F 1 "CL10B103KB8NNNC" H 1625 3150 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 1638 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 3100 50  0001 C CNN
 F 3 "~" H 1600 3250 50  0001 C CNN
 F 4 "10000pF" V 1550 2850 50  0000 L CNN "id"
 F 5 "Samsung Electro-Mechanics" H 1600 3250 50  0001 C CNN "manf"
@@ -476,12 +475,12 @@ Wire Wire Line
 Wire Wire Line
 	1000 3100 1000 2950
 $Comp
-L capacitors:CC0603KRX7R9BB104 C4
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C4
 U 1 1 5F182CDB
 P 1850 3250
 F 0 "C4" H 1900 3350 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 1875 3150 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 1888 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 3100 50  0001 C CNN
 F 3 "~" H 1850 3250 50  0001 C CNN
 F 4 "0.1uF" V 1800 2950 50  0000 L CNN "id"
 F 5 "Yageo" H 1850 3250 50  0001 C CNN "manf"
@@ -492,12 +491,12 @@ Wire Wire Line
 	1850 3100 1600 3100
 Connection ~ 1600 3100
 $Comp
-L capacitors:CC0603KRX5R9BB105 C6
+L assembly_line_enviro_tester-rescue:CC0603KRX5R9BB105-capacitors C6
 U 1 1 5F184FC7
 P 2100 3250
 F 0 "C6" H 2150 3350 50  0000 L CNN
 F 1 "CC0603KRX5R9BB105" H 2125 3150 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 2138 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3100 50  0001 C CNN
 F 3 "~" H 2100 3250 50  0001 C CNN
 F 4 "1uF" V 2050 3000 50  0000 L CNN "id"
 F 5 "Yageo" H 2100 3250 50  0001 C CNN "manf"
@@ -511,12 +510,12 @@ Wire Wire Line
 	2350 3100 2100 3100
 Connection ~ 2100 3100
 $Comp
-L resistors:SR732BTTD1R00D R1
+L assembly_line_enviro_tester-rescue:SR732BTTD1R00D-resistors R1
 U 1 1 5F18BDB0
 P 2350 3550
 F 0 "R1" H 2418 3596 50  0000 L CNN
 F 1 "SR732BTTD1R00D" V 2250 3550 50  0001 C CNN
-F 2 "lib_fp:CHIP_1206N" V 2390 3540 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2390 3540 50  0001 C CNN
 F 3 "~" H 2350 3550 50  0001 C CNN
 F 4 "1" H 2418 3505 50  0000 L CNN "id"
 F 5 "KOA Speer Electronics, Inc." H 2350 3550 50  0001 C CNN "manf"
@@ -559,7 +558,7 @@ Wire Wire Line
 	2850 3100 2350 3100
 Connection ~ 2350 3100
 $Comp
-L diodes:P6SMB6.8A-E3_5B D1
+L assembly_line_enviro_tester-rescue:P6SMB6.8A-E3_5B-diodes D1
 U 1 1 5F1A16B5
 P 1500 1550
 F 0 "D1" V 1500 1450 50  0000 R CNN
@@ -572,7 +571,7 @@ F 5 "TVS" H 1500 1550 50  0001 C CNN "id"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L inductors:ACM4520V-142-2P-T00 L1
+L assembly_line_enviro_tester-rescue:ACM4520V-142-2P-T00-inductors L1
 U 1 1 5F1B0797
 P 2300 1600
 F 0 "L1" H 2300 2050 50  0000 C CNN
@@ -582,15 +581,15 @@ F 3 "~" H 2300 1600 50  0001 C CNN
 F 4 "CHOKE" H 2300 1200 50  0000 C CNN "id"
 F 5 "TDK Corporation" H 2300 1600 50  0001 C CNN "manf"
 	1    2300 1600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
-L capacitors:CC0603KRX5R9BB105 C5
+L assembly_line_enviro_tester-rescue:CC0603KRX5R9BB105-capacitors C5
 U 1 1 5F1D7448
 P 2050 1600
 F 0 "C5" H 2000 2050 50  0000 L CNN
 F 1 "CC0603KRX5R9BB105" H 2075 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 2088 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 1450 50  0001 C CNN
 F 3 "~" H 2050 1600 50  0001 C CNN
 F 4 "1uF" H 2000 1150 50  0000 L CNN "id"
 F 5 "Yageo" H 2050 1600 50  0001 C CNN "manf"
@@ -598,12 +597,12 @@ F 5 "Yageo" H 2050 1600 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors:CC0603KRX7R9BB104 C9
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C9
 U 1 1 5F1E2D0F
 P 2750 1600
 F 0 "C9" H 2700 2050 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 2775 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 2788 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2788 1450 50  0001 C CNN
 F 3 "~" H 2750 1600 50  0001 C CNN
 F 4 "0.1uF" H 2650 1150 50  0000 L CNN "id"
 F 5 "Yageo" H 2750 1600 50  0001 C CNN "manf"
@@ -611,12 +610,12 @@ F 5 "Yageo" H 2750 1600 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors:CC0603KRX7R9BB104 C3
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C3
 U 1 1 5F1E3659
 P 1850 1600
 F 0 "C3" H 1800 2050 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 1875 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 1888 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 1450 50  0001 C CNN
 F 3 "~" H 1850 1600 50  0001 C CNN
 F 4 "0.1uF" H 1750 1200 50  0000 L CNN "id"
 F 5 "Yageo" H 1850 1600 50  0001 C CNN "manf"
@@ -626,12 +625,12 @@ $EndComp
 Wire Wire Line
 	3000 1100 3000 1200
 $Comp
-L capacitors:CC0603KRX7R9BB104 C1
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C1
 U 1 1 5F2120E4
 P 1200 3250
 F 0 "C1" H 1250 3350 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 1225 3150 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 1238 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 3100 50  0001 C CNN
 F 3 "~" H 1200 3250 50  0001 C CNN
 F 4 "0.1uF" H 1200 3150 50  0000 L CNN "id"
 F 5 "Yageo" H 1200 3250 50  0001 C CNN "manf"
@@ -647,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3700 1600 3700
 $Comp
-L ics:TPS56339DDCR U2
+L assembly_line_enviro_tester-rescue:TPS56339DDCR-ics U2
 U 1 1 5F149871
 P 4500 1450
 F 0 "U2" H 4300 1850 50  0000 C CNN
@@ -660,12 +659,12 @@ F 5 "Texas Instruments" H 4500 1450 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L resistors:RC0603JR-0730RL R6
+L assembly_line_enviro_tester-rescue:RC0603JR-0730RL-resistors R6
 U 1 1 5F14BD1F
 P 5150 1200
 F 0 "R6" V 5050 1200 50  0000 C CNN
 F 1 "RC0603JR-0730RL" V 5050 1200 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 5190 1190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5190 1190 50  0001 C CNN
 F 3 "~" H 5150 1200 50  0001 C CNN
 F 4 "30" V 5250 1200 50  0000 C CNN "id"
 F 5 "Yageo" H 5150 1200 50  0001 C CNN "manf"
@@ -673,12 +672,12 @@ F 5 "Yageo" H 5150 1200 50  0001 C CNN "manf"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitors:CC0603KRX7R9BB104 C15
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C15
 U 1 1 5F1507C3
 P 5450 1200
 F 0 "C15" V 5300 1200 50  0000 C CNN
 F 1 "CC0603KRX7R9BB104" H 5475 1100 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 5488 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 1050 50  0001 C CNN
 F 3 "~" H 5450 1200 50  0001 C CNN
 F 4 "0.1uF" V 5600 1200 50  0000 C CNN "id"
 F 5 "Yageo" H 5450 1200 50  0001 C CNN "manf"
@@ -690,7 +689,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1450 5600 1200
 $Comp
-L inductors:CIGW252010EH4R7MNE L2
+L assembly_line_enviro_tester-rescue:CIGW252010EH4R7MNE-inductors L2
 U 1 1 5F163BC7
 P 5750 1200
 F 0 "L2" V 5850 1300 50  0000 C CNN
@@ -711,12 +710,12 @@ Connection ~ 6000 1600
 Wire Wire Line
 	6000 1600 6000 1650
 $Comp
-L resistors:RC0603JR-0710KL R8
+L assembly_line_enviro_tester-rescue:RC0603JR-0710KL-resistors R8
 U 1 1 5F173417
 P 6000 1800
 F 0 "R8" H 5850 1900 50  0000 L CNN
 F 1 "RC0603JR-0710KL" V 5900 1800 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 6040 1790 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 1790 50  0001 C CNN
 F 3 "~" H 6000 1800 50  0001 C CNN
 F 4 "10K" H 5950 1550 50  0000 L CNN "id"
 F 5 "Yageo" H 6000 1800 50  0001 C CNN "manf"
@@ -728,12 +727,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 1600 6000 1600
 $Comp
-L resistors:RC0603FR-0730K9L R7
+L assembly_line_enviro_tester-rescue:RC0603FR-0730K9L-resistors R7
 U 1 1 5F16AD10
 P 6000 1400
 F 0 "R7" H 5950 1700 50  0000 L CNN
 F 1 "RC0603FR-0730K9L" V 5900 1400 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 6040 1390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 1390 50  0001 C CNN
 F 3 "~" H 6000 1400 50  0001 C CNN
 F 4 "30.9K" H 5750 1250 50  0000 L CNN "id"
 F 5 "Yageo" H 6000 1400 50  0001 C CNN "manf"
@@ -745,12 +744,12 @@ Wire Wire Line
 Wire Wire Line
 	4500 1950 4500 1900
 $Comp
-L capacitors:C2012X7S1A226M125AC C16
+L assembly_line_enviro_tester-rescue:C2012X7S1A226M125AC-capacitors C16
 U 1 1 5F18F970
 P 6250 1600
 F 0 "C16" H 6200 2050 50  0000 L CNN
 F 1 "C2012X7S1A226M125AC" H 6275 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0805N" H 6288 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 1450 50  0001 C CNN
 F 3 "~" H 6250 1600 50  0001 C CNN
 F 4 "22uF" H 6150 1200 50  0000 L CNN "id"
 F 5 "TDK Corporation" H 6250 1600 50  0001 C CNN "manf"
@@ -774,12 +773,12 @@ Wire Wire Line
 	6450 1750 6450 1950
 Connection ~ 6250 1950
 $Comp
-L capacitors:CC0603KRX5R9BB105 C17
+L assembly_line_enviro_tester-rescue:CC0603KRX5R9BB105-capacitors C17
 U 1 1 5F1B08D4
 P 6450 1600
 F 0 "C17" H 6400 2050 50  0000 L CNN
 F 1 "CC0603KRX5R9BB105" H 6475 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 6488 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 1450 50  0001 C CNN
 F 3 "~" H 6450 1600 50  0001 C CNN
 F 4 "1uF" H 6400 1150 50  0000 L CNN "id"
 F 5 "Yageo" H 6450 1600 50  0001 C CNN "manf"
@@ -787,12 +786,12 @@ F 5 "Yageo" H 6450 1600 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors:CC0603KRX7R9BB104 C18
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C18
 U 1 1 5F1B14C6
 P 6650 1600
 F 0 "C18" H 6600 2050 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 6675 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 6688 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 1450 50  0001 C CNN
 F 3 "~" H 6650 1600 50  0001 C CNN
 F 4 "0.1uF" H 6550 1200 50  0000 L CNN "id"
 F 5 "Yageo" H 6650 1600 50  0001 C CNN "manf"
@@ -842,12 +841,12 @@ F 3 "~" H 6850 1200 50  0001 C CNN
 $EndComp
 Connection ~ 6850 1200
 $Comp
-L capacitors:CC0603KRX7R9BB104 C14
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C14
 U 1 1 5F1D2F57
 P 3950 1700
 F 0 "C14" H 4000 1800 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 3975 1600 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 3988 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 1550 50  0001 C CNN
 F 3 "~" H 3950 1700 50  0001 C CNN
 F 4 "0.1uF" H 3850 1400 50  0000 L CNN "id"
 F 5 "Yageo" H 3950 1700 50  0001 C CNN "manf"
@@ -864,12 +863,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 1450 4050 1450
 $Comp
-L capacitors:CC0603KRX7R9BB104 C12
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C12
 U 1 1 5F1DDAC1
 P 3550 1600
 F 0 "C12" H 3500 2050 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 3575 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 3588 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 1450 50  0001 C CNN
 F 3 "~" H 3550 1600 50  0001 C CNN
 F 4 "0.1uF" H 3450 1200 50  0000 L CNN "id"
 F 5 "Yageo" H 3550 1600 50  0001 C CNN "manf"
@@ -877,12 +876,12 @@ F 5 "Yageo" H 3550 1600 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L capacitors:CL10B102KB8WPNC C13
+L assembly_line_enviro_tester-rescue:CL10B102KB8WPNC-capacitors C13
 U 1 1 5F1DE508
 P 3750 1600
 F 0 "C13" H 3700 2050 50  0000 L CNN
 F 1 "CL10B102KB8WPNC" H 3775 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 3788 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 1450 50  0001 C CNN
 F 3 "~" H 3750 1600 50  0001 C CNN
 F 4 "1000pF" H 3650 1150 50  0000 L CNN "id"
 F 5 "Samsung Electro-Mechanics" H 3750 1600 50  0001 C CNN "manf"
@@ -899,12 +898,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 1450 3550 1200
 $Comp
-L capacitors:CL31A106KPHNNNE C11
+L assembly_line_enviro_tester-rescue:CL31A106KPHNNNE-capacitors C11
 U 1 1 5F1F5047
 P 3350 1600
 F 0 "C11" H 3300 2050 50  0000 L CNN
 F 1 "CL31A106KPHNNNE" H 3375 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_1206N" H 3388 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3388 1450 50  0001 C CNN
 F 3 "~" H 3350 1600 50  0001 C CNN
 F 4 "10uF" H 3250 1150 50  0000 L CNN "id"
 F 5 "Samsung Electro-Mechanics" H 3350 1600 50  0001 C CNN "manf"
@@ -916,12 +915,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 1450 3350 1200
 $Comp
-L capacitors:CL31A106KPHNNNE C10
+L assembly_line_enviro_tester-rescue:CL31A106KPHNNNE-capacitors C10
 U 1 1 5F201CC6
 P 3150 1600
 F 0 "C10" H 3100 2050 50  0000 L CNN
 F 1 "CL31A106KPHNNNE" H 3175 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_1206N" H 3188 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3188 1450 50  0001 C CNN
 F 3 "~" H 3150 1600 50  0001 C CNN
 F 4 "10uF" H 3050 1200 50  0000 L CNN "id"
 F 5 "Samsung Electro-Mechanics" H 3150 1600 50  0001 C CNN "manf"
@@ -934,12 +933,12 @@ Wire Wire Line
 	3150 1450 3150 1200
 Connection ~ 3000 1100
 $Comp
-L capacitors:CC0603KRX5R9BB105 C8
+L assembly_line_enviro_tester-rescue:CC0603KRX5R9BB105-capacitors C8
 U 1 1 5F1CD839
 P 2550 1600
 F 0 "C8" H 2500 2050 50  0000 L CNN
 F 1 "CC0603KRX5R9BB105" H 2575 1500 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 2588 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2588 1450 50  0001 C CNN
 F 3 "~" H 2550 1600 50  0001 C CNN
 F 4 "1uF" H 2500 1200 50  0000 L CNN "id"
 F 5 "Yageo" H 2550 1600 50  0001 C CNN "manf"
@@ -1135,20 +1134,20 @@ IO0
 Wire Wire Line
 	3850 4500 3750 4500
 $Comp
-L misc:SMI-1324-TW-5V-3-R BZ1
+L assembly_line_enviro_tester-rescue:SMI-1324-TW-5V-3-R-misc BZ1
 U 1 1 5F4DA7AD
 P 5700 3200
 F 0 "BZ1" H 5850 3000 50  0000 C CNN
 F 1 "SMI-1324-TW-5V-3-R" H 5850 3150 50  0001 L CNN
 F 2 "lib_fp:SMI-1324-TW-5V-3-R" V 5675 3300 50  0001 C CNN
-F 3 "~" V 5675 3300 50  0001 C CNN
+F 3 "https://www.puiaudio.com/media/SpecSheet/SMI-1324-TW-5V-3-R.pdf" V 5675 3300 50  0001 C CNN
 F 4 "BUZZER" H 5900 3400 50  0000 C CNN "id"
 F 5 "PUI Audio, Inc." H 5700 3200 50  0001 C CNN "manf"
 	1    5700 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L mosfets:2N7002-TP Q3
+L assembly_line_enviro_tester-rescue:2N7002-TP-mosfets Q3
 U 1 1 5F4E6730
 P 5500 3600
 F 0 "Q3" H 5706 3646 50  0000 L CNN
@@ -1176,12 +1175,12 @@ Wire Wire Line
 Wire Wire Line
 	5500 3100 5500 3000
 $Comp
-L resistors:RC0603JR-0730RL R9
+L assembly_line_enviro_tester-rescue:RC0603JR-0730RL-resistors R9
 U 1 1 5F507473
 P 5150 3600
 F 0 "R9" V 5050 3600 50  0000 C CNN
 F 1 "RC0603JR-0730RL" V 5050 3600 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 5190 3590 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5190 3590 50  0001 C CNN
 F 3 "~" H 5150 3600 50  0001 C CNN
 F 4 "30" V 5250 3600 50  0000 C CNN "id"
 F 5 "Yageo" H 5150 3600 50  0001 C CNN "manf"
@@ -1194,7 +1193,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 3300 5600 3400
 $Comp
-L transistors:INL-5APT30 Q4
+L assembly_line_enviro_tester-rescue:INL-5APT30-transistors Q4
 U 1 1 5F54FF98
 P 5200 5400
 F 0 "Q4" H 5400 5400 50  0000 L CNN
@@ -1207,12 +1206,12 @@ F 5 "Inolux" H 5390 5309 50  0001 L CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L resistors:RC0603JR-07220RL R10
+L assembly_line_enviro_tester-rescue:RC0603JR-07220RL-resistors R10
 U 1 1 5F576793
 P 5300 4850
 F 0 "R10" H 5368 4896 50  0000 L CNN
 F 1 "RC0603JR-07220RL" V 5200 4850 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 5340 4840 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5340 4840 50  0001 C CNN
 F 3 "~" H 5300 4850 50  0001 C CNN
 F 4 "220" H 5368 4805 50  0000 L CNN "id"
 F 5 "Yageo" H 5300 4850 50  0001 C CNN "manf"
@@ -1276,7 +1275,7 @@ F 3 "~" H 3950 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L connectors:Tag_Connect_6_Pin J3
+L assembly_line_enviro_tester-rescue:Tag_Connect_6_Pin-connectors J3
 U 1 1 5F5D8A41
 P 1300 5900
 F 0 "J3" H 1350 6217 50  0000 C CNN
@@ -1319,12 +1318,12 @@ RTS
 Wire Wire Line
 	1600 6800 2850 6800
 $Comp
-L resistors:RC0603JR-0730RL R11
+L assembly_line_enviro_tester-rescue:RC0603JR-0730RL-resistors R11
 U 1 1 5F5F9E6E
 P 950 5500
 F 0 "R11" V 850 5500 50  0000 C CNN
 F 1 "RC0603JR-0730RL" V 850 5500 50  0001 C CNN
-F 2 "lib_fp:CHIP_0603N" V 990 5490 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 990 5490 50  0001 C CNN
 F 3 "~" H 950 5500 50  0001 C CNN
 F 4 "30" V 1050 5500 50  0000 C CNN "id"
 F 5 "Yageo" H 950 5500 50  0001 C CNN "manf"
@@ -1395,12 +1394,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 4150 1700 4450
 $Comp
-L capacitors:CC0603KRX7R9BB104 C22
+L assembly_line_enviro_tester-rescue:CC0603KRX7R9BB104-capacitors C22
 U 1 1 5F293A38
 P 1700 4800
 F 0 "C22" H 1700 4900 50  0000 L CNN
 F 1 "CC0603KRX7R9BB104" H 1725 4700 50  0001 L CNN
-F 2 "lib_fp:CHIP_0603N" H 1738 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 4650 50  0001 C CNN
 F 3 "~" H 1700 4800 50  0001 C CNN
 F 4 "0.1uF" H 1700 4700 50  0000 L CNN "id"
 F 5 "Yageo" H 1700 4800 50  0001 C CNN "manf"
@@ -1450,12 +1449,12 @@ Wire Wire Line
 Wire Wire Line
 	3750 5000 4650 5000
 $Comp
-L fuses:0ZCG0150BF2C F1
+L assembly_line_enviro_tester-rescue:0ZCG0150BF2C-fuses F1
 U 1 1 601BA643
 P 1300 1200
 F 0 "F1" V 1200 1200 50  0000 C CNN
 F 1 "0ZCG0150BF2C" V 1400 1200 50  0001 C CNN
-F 2 "footprints:FUSC455X324X155L45N" H 1350 1000 50  0001 L CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Castellated" H 1350 1000 50  0001 L CNN
 F 3 "${MTE_LIB_DIR}/datasheets/ds-CP-0zcg-series.pdf" H 1300 1200 50  0001 C CNN
 F 4 "1.5A " V 1400 1200 50  0000 C CNN "id"
 F 5 "Bel Fuse Inc." H 1300 1200 50  0001 C CNN "manf"
@@ -1467,12 +1466,12 @@ Wire Wire Line
 Wire Wire Line
 	1150 1200 1100 1200
 $Comp
-L capacitors:CL31A106KPHNNNE C7
+L assembly_line_enviro_tester-rescue:CL31A106KPHNNNE-capacitors C7
 U 1 1 5F186EBF
 P 2350 3250
 F 0 "C7" H 2400 3350 50  0000 L CNN
 F 1 "CL31A106KPHNNNE" H 2375 3150 50  0001 L CNN
-F 2 "lib_fp:CHIP_1206N" H 2388 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2388 3100 50  0001 C CNN
 F 3 "~" H 2350 3250 50  0001 C CNN
 F 4 "10uF" V 2250 3000 50  0000 L CNN "id"
 F 5 "Samsung Electro-Mechanics" H 2350 3250 50  0001 C CNN "manf"
@@ -1480,12 +1479,12 @@ F 5 "Samsung Electro-Mechanics" H 2350 3250 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L fuses:0686F2000-01 F2
+L assembly_line_enviro_tester-rescue:0686F2000-01-fuses F2
 U 1 1 60257D1F
 P 9100 1050
 F 0 "F2" H 9160 1096 50  0000 L CNN
 F 1 "0686F2000-01" V 9200 1050 50  0001 C CNN
-F 2 "footprints:FUSE_0603N" H 9150 850 50  0001 L CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 9150 850 50  0001 L CNN
 F 3 "${MTE_LIB_DIR}/datasheets/ds-cp-c2f-series.pdf" H 9100 1050 50  0001 C CNN
 F 4 "2A" H 9160 1005 50  0000 L CNN "id"
 F 5 "Bel Fuse Inc." H 9100 1050 50  0001 C CNN "manf"
@@ -1493,7 +1492,7 @@ F 5 "Bel Fuse Inc." H 9100 1050 50  0001 C CNN "manf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L misc:PTS_647_SN70_SMTR2_LFS SW1
+L assembly_line_enviro_tester-rescue:PTS_647_SN70_SMTR2_LFS-misc SW1
 U 1 1 5F2500D3
 P 1400 4450
 F 0 "SW1" H 1400 4300 50  0000 C CNN
@@ -1505,4 +1504,5 @@ F 5 "C&K" H 1400 4950 31  0001 C CNN "manf"
 	1    1400 4450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9700 4050
 $EndSCHEMATC
